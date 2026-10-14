@@ -5,9 +5,9 @@ In this hw, you’ll continue working on your resume site. You can continue buli
 1.	Add a navigation menu to your resume site.
 			      a.	For this HW add a navigation menu without using a list. An example of this is can be found in the lecture material. 
 
-            b. Each item in the menu should link to a specific section of your resume.
+            b. Each item in the menu should link to a specific section of your resume. -- here!!
 
-            c. The menu should stay at the top of your site even when you scroll down.
+            c. The menu should stay at the top of your site even when you scroll down. -- here?!!
 
             d. Add a menu item to your nav menu that links to a pdf version of your resume to download.   
 
