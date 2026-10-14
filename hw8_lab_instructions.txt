@@ -1,5 +1,5 @@
 HW8 Resume Site
--test
+
 In this hw, you’ll continue working on your resume site. You can continue buliding on from HW6&7.
 
 1.	Add a navigation menu to your resume site.
