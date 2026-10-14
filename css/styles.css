@@ -1,0 +1,146 @@
+/* Color Palette
+#AE2647 - color 1
+#bf437f - color 2
+#bf4398 - color 3
+#9F3B7B & #5d42b3 - color 4 & 5 used together for footer
+*/
+
+
+/* Global styles 
+------------------------------------*/
+/* the box model fix for p5 */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    /* background: #FF98BB; was no longer needed cause made margin 0, so couldn't see it anymore */
+    color: #162941;
+    font-family: "Bentham", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Italianno", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: xx-large;
+    line-height: 1em;
+    margin-top: 0;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Bentham", serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 0;
+}
+
+.bentham-regular {
+  font-family: "Bentham", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content-wrap {
+    max-width: 950px;
+    padding: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background: linear-gradient(#AE2647, #bf437f); /* #AE2647 is the main color for header, but I didn't like all the colors by themselves, they just looked bad as random blocks of color on the page, so I decided to do a gradient. I like how this looks much better. */
+    /*margin-top: 0;
+    margin-bottom: -20px;*/
+}
+
+h1 {
+    text-align: center;
+    font-family: "Bentham", serif;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; /* makes the circle around the picture / the picture into a circle shape */
+    /* width: 300px; -- height will be the same
+    float: left;
+    margin-right: 30px; Commenting out after adding column-wide*/
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(#9F3B7B, #5d42b3); /* #9F3B7B & #5d42b3 */
+}
+
+a {
+    color: #f472b6;
+}
+
+a:hover {
+    color: #9583FE;
+}
+
+#diff-color { /* I liked how the color looked here only, so it got it's own id */
+    color:aliceblue;
+}
+
+.contact-info a {
+    padding: 10px; 
+    display: inline-block;
+} 
+
+
+/* Work Experience
+------------------------------------*/
+#work-exp {
+    background: linear-gradient(#bf437f, #bf4398); /* #bf437f is the main color, it transitions into the next sections main color */
+    /*margin-top: 20px;
+    margin-bottom: 0;*/
+}
+
+.bold {
+    font-weight: 700; /* bold - could have used bold keyword */
+}
+
+
+/* Education
+------------------------------------*/
+#edu {
+    background: linear-gradient(#bf4398, #9F3B7B);/* #bf4398 is the main color, tranistions into the first color of the footer */
+    /*margin-top: -20px;
+    margin-bottom: -10px;*/
+}
