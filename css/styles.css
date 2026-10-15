@@ -75,8 +75,11 @@ h3 {
     min-height: 225px;
 }
 
-nav { /*HERE!! TOP 0'??*/
+nav { /*HERE!! TOP 0'?? How to make it center and a box?*/
     position: fixed;
+    background-color: #FF98BB;
+    text-align: center;
+    padding: 5%;
 }
 
 /* Header & Footer 
