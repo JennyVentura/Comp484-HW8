@@ -79,8 +79,15 @@ nav { /*HERE!! TOP 0'?? How to make it center and a box?*/
     position: fixed;
     background-color: #FF98BB;
     text-align: center;
-    padding: 5%;
+    padding: 1%;
+    top: 0;
+    /*width: ; 
+    height: ;*/
+    /*margin-right: 100%;
+    margin-left: 100%;*/
 }
+
+/*property background thing*/
 
 /* Header & Footer 
 ------------------------------------*/
