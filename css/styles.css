@@ -8,7 +8,6 @@
 
 /* Global styles 
 ------------------------------------*/
-/* the box model fix for p5 */
 html {
     box-sizing: border-box;
 }
@@ -17,7 +16,6 @@ html {
 }
 
 body {
-    /* background: #FF98BB; was no longer needed cause made margin 0, so couldn't see it anymore */
     color: #162941;
     font-family: "Bentham", serif;
     font-weight: 400;
@@ -81,18 +79,19 @@ nav { /*HERE!! TOP 0'?? How to make it center and a box?*/
     text-align: center;
     padding: 1%;
     top: 0;
+    
     /*width: ; 
     height: ;*/
     /*margin-right: 100%;
     margin-left: 100%;*/
 }
 
-/*property background thing*/
+/*property background thing!!!!!!!!!!!!!!!*/
 
 /* Header & Footer 
 ------------------------------------*/
 header {
-    background: linear-gradient(#AE2647, #bf437f); /* #AE2647 is the main color for header, but I didn't like all the colors by themselves, they just looked bad as random blocks of color on the page, so I decided to do a gradient. I like how this looks much better. */
+    background: linear-gradient(#AE2647, #bf437f); /* #AE2647 -> #bf437f */
     /*margin-top: 0;
     margin-bottom: -20px;*/
 }
@@ -108,10 +107,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%; /* makes the circle around the picture / the picture into a circle shape */
-    /* width: 300px; -- height will be the same
-    float: left;
-    margin-right: 30px; Commenting out after adding column-wide*/
+    border-radius: 50%;
 }
 
 footer {
@@ -127,7 +123,7 @@ a:hover {
     color: #9583FE;
 }
 
-#diff-color { /* I liked how the color looked here only, so it got it's own id */
+#diff-color {
     color:aliceblue;
 }
 
@@ -140,20 +136,20 @@ a:hover {
 /* Work Experience
 ------------------------------------*/
 #work-exp {
-    background: linear-gradient(#bf437f, #bf4398); /* #bf437f is the main color, it transitions into the next sections main color */
+    background: linear-gradient(#bf437f, #bf4398); /* #bf437f ->  #bf4398 */
     /*margin-top: 20px;
     margin-bottom: 0;*/
 }
 
 .bold {
-    font-weight: 700; /* bold - could have used bold keyword */
+    font-weight: 700;
 }
 
 
 /* Education
 ------------------------------------*/
 #edu {
-    background: linear-gradient(#bf4398, #9F3B7B);/* #bf4398 is the main color, tranistions into the first color of the footer */
+    background: linear-gradient(#bf4398, #9F3B7B);/* #bf4398 -> #9F3B7B */
     /*margin-top: -20px;
     margin-bottom: -10px;*/
 }
