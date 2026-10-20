@@ -73,20 +73,18 @@ h3 {
     min-height: 225px;
 }
 
-nav { /*HERE!! should the link color be changed????? -- space between links*/
+nav { /*HERE!!  -- space between links*/
     position: fixed;
     background-color: #FF98BB;
     text-align: center;
-    padding: 1%;
     top: 0; /*needed?*/
     margin: 0 auto;
-    width: 100%; 
-    /*box-sizing: content-box;
-    height: ;*/
-    /*margin-right: 100%;
-    margin-left: 100%;*/
+    width: 100%;
+    height: 6%;
+    padding: .7%;
+    
+    
 } /*property background thing!!!!!!!!!!!!!!!*/
-
 
 
 /* Header & Footer 
@@ -111,16 +109,25 @@ h1 {
     border-radius: 50%;
 }
 
+header a {
+    color: #8c00ff;
+}
+
+header a:hover {
+    color: #ff2ee7;
+}
+
+
 footer {
     text-align: center;
     background: linear-gradient(#9F3B7B, #5d42b3); /* #9F3B7B & #5d42b3 */
 }
 
-a {
+footer a {
     color: #f472b6;
 }
 
-a:hover {
+footer a:hover {
     color: #9583FE;
 }
 
