@@ -7,7 +7,7 @@ In this hw, you’ll continue working on your resume site. You can continue buli
 
             b. Each item in the menu should link to a specific section of your resume.
 
-            c. The menu should stay at the top of your site even when you scroll down. -- here?!!
+            c. The menu should stay at the top of your site even when you scroll down.
 
             d. Add a menu item to your nav menu that links to a pdf version of your resume to download.    -- HAVE TO DO LAST!!!!!!!!!!!!!!!!!!!!!!!!
 
