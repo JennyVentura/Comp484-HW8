@@ -95,8 +95,6 @@ nav {
 ------------------------------------*/
 header {
     background: linear-gradient(#AE2647, #bf437f); /* #AE2647 -> #bf437f */
-    /*margin-top: 0;
-    margin-bottom: -20px;*/
 }
 
 h1 {
@@ -154,8 +152,6 @@ footer a:hover {
 ------------------------------------*/
 #work-exp {
     background: linear-gradient(#bf437f, #bf4398); /* #bf437f ->  #bf4398 */
-    /*margin-top: 20px;
-    margin-bottom: 0;*/
 }
 
 .bold {
@@ -167,6 +163,4 @@ footer a:hover {
 ------------------------------------*/
 #edu {
     background: linear-gradient(#bf4398, #9F3B7B);/* #bf4398 -> #9F3B7B */
-    /*margin-top: -20px;
-    margin-bottom: -10px;*/
 }
