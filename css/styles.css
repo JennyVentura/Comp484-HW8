@@ -73,18 +73,22 @@ h3 {
     min-height: 225px;
 }
 
-nav { /*HERE!!  -- space between links*/
+nav {
     position: fixed;
     background-color: #FF98BB;
     text-align: center;
-    top: 0; /*needed?*/
+    top: 0;
     margin: 0 auto;
     width: 100%;
     height: 6%;
     padding: .7%;
-   
+    word-spacing: 300%;
     
 } /*property background thing!!!!!!!!!!!!!!!*/
+
+.one-word {
+    word-spacing: normal;
+}
 
 
 /* Header & Footer 

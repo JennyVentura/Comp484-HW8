@@ -9,7 +9,7 @@ In this hw, you’ll continue working on your resume site. You can continue buli
 
             c. The menu should stay at the top of your site even when you scroll down. -- here?!!
 
-            d. Add a menu item to your nav menu that links to a pdf version of your resume to download.    -- HAVE TO DO LAST
+            d. Add a menu item to your nav menu that links to a pdf version of your resume to download.    -- HAVE TO DO LAST!!!!!!!!!!!!!!!!!!!!!!!!
 
 2. Add some font icons to your footer.
             a. Use fontawesome to add some font icons to your contact info. Some examples are shown in the lecture material.
