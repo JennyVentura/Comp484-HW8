@@ -145,6 +145,10 @@ footer a:hover {
     display: inline-block;
 } 
 
+.background-img {
+    background-image: url(https://images.unsplash.com/photo-1580655653885-65763b2597d0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D) no-repeat;
+} /*HERE!!!!!!!!!!!!!!!!!!*/
+
 
 /* Work Experience
 ------------------------------------*/
