@@ -78,11 +78,10 @@ nav { /*HERE!! TOP 0'?? How to make it center and a box?*/
     background-color: #FF98BB;
     text-align: center;
     padding: 1%;
-    top: 0;
-    margin: auto;
-    box-sizing: content-box;
-    
-    /*width: ; 
+    top: 0; /*needed?*/
+    margin: 0 auto;
+    width: 100%; 
+    /*box-sizing: content-box;
     height: ;*/
     /*margin-right: 100%;
     margin-left: 100%;*/
