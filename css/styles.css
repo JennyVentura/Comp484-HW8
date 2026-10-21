@@ -126,7 +126,7 @@ footer {
     background: linear-gradient(rgb(255, 255, 255, 0.8), rgba(74, 11, 146, 0.5)), url("../images/La_at_night.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed; /* scorlling affect */
+    background-attachment: fixed; /* scrolling affect */
 }
 
 footer a {
